@@ -26,7 +26,12 @@ for (i in 1:nrow(btheftData)){
     btheftData$Location[i] = "Dunne"
   } else if (grepl("Bellarmine .",btheftData$Location[i])){
     btheftData$Location[i] = "Bellarmine"
-  } else{
+  }else if (grepl("Benson .",btheftData$Location[i])){
+    btheftData$Location[i] = "Benson"
+  }else if (grepl("Engineering .",btheftData$Location[i])){
+    btheftData$Location[i] = "Engineering"
+  }
+  else{
     btheftData$Location[i] = "Other"
   }
 }
@@ -43,15 +48,10 @@ table(btheftData$wday)
 #Monday is highest with 40 incidents
 
 ######## Question 3 #############
-btheftData$month <- month(mday(btheftData$Date))
+btheftData$month <- month(mdy(btheftData$Date))
 table(btheftData$month)
 
 #February is highest with 31 incidents
-
-
-
-
-
 
 
 
