@@ -11,4 +11,5 @@
   - d3-Visualizations - Folder containing both the Bike Theft and Bike Commute in-class assignments
 - kaggle - All three Kaggle assignments
   - expedia.R - Expedia In-Class Competition
+  - galaxy.R - Galaxy Classification Competition
   - taxitime.R - Taxi Trip Time Prediction - created w/Kevin Wachs
