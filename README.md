@@ -1,4 +1,4 @@
-# cs183
+# CS 183 - Assignments and Competitions
 
 - homework - Folder containing all homework assignments
   - hw1.R - Assignment from book 
