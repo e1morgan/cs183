@@ -8,3 +8,5 @@
   - titanic_caret418.R - Titanic w/caret Assignment - 4/18/15
   - music.R - Music Clustering w/PCA - 4/25/15
   - d3-Visualizations - Folder containing both the Bike Theft and Bike Commute in-class assignments
+- kaggle - All three Kaggle assignments
+  - taxitime.R - Taxi Trip Time Prediction - created w/Kevin Wachs
